@@ -1,6 +1,6 @@
 
-import isParallel from "@/utils/get_settings"
-import expect from "@jest/globals"
+import isParallel from "../src/utils/get_settings"
+import {expect, test} from "@jest/globals"
 
 test("Tests if works IsParallel function", () => {
     process.env.PARALLEL_SITE = "1"
